@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #3c3c3c;
+  color: #f4f4f4;
+}
+
+.carta {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #2b2b2b;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid #f4f4f4;
+}
+
+.cabecalho,
+.corpo,
+.assinatura {
+  margin-bottom: 30px;
+}
+
+.cabecalho h2 {
+  text-align: center;
+  color: #f4f4f4;
+  border-bottom: 2px solid #f4f4f4;
+  padding-bottom: 10px;
+}
+
+.corpo p {
+  line-height: 1.6;
+  color: #f4f4f4;
+  text-indent: 30px;
+  margin: 20px;
+}
+
+.assinatura h3 {
+  text-align: right;
+  color: #f4f4f4;
+  border-top: 2px solid #f4f4f4;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .carta {
+    width: 90%;
+    padding: 20px;
+  }
+}
